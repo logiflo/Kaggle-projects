@@ -7,6 +7,7 @@ This repository contains jupyter notebooks for Kaggle tasks and competitions.
 # Projects
 
 - [CO2 Emissions](#CO2)
+- [Google Play Store](#play-store)
 -
 
 <a name="CO2"></a>
@@ -28,6 +29,31 @@ The country with the highest total emissions of CO2 from 1750 to 2017 is the Uni
 
 - You can view the notebook online in [Kaggle profile](https://www.kaggle.com/logiflo/co2-emissions).
 
+
+<a name="play-store"></a>
+# Google Play Store
+
+This project is focused on data cleaning of the Google play store dataset extracted in 2018.
+
+**Data Set**
+
+The data sources are not provided, but it is available in [Kaggle](https://www.kaggle.com/lava18/google-play-store-apps)
+
+This data set contains 10841 apps with 13 variables on each app. These variables are: App, Category, Rating, Reviews, Size, Installs, Type, Price, Content Rating, Genres, Last Updated, Current Ver, Android Ver.
+
+**Summary**
+
+This project consists of cleaning the database column by column, in order to have the data ready for later analysis.
+
+Some examples are:
+- Convert columns into numeric, removing '+', '$', 'M' or 'k'.
+- Fill in the missing values if possible.
+- Divide Genres into Main Genres and Sub Genres.
+- Convert date in datetime type.
+
+After cleaning data, 4 next columns have been created: Main Genres, Sub Genres, Last Updated in Days, MIN Android Ver.
+
+- You can view the notebook online in [Kaggle profile](https://www.kaggle.com/logiflo/play-store-data-data-cleaning-and-wrangling).
 
 
 
